@@ -32,4 +32,5 @@ case class Program(p: Exp)
 # Usage
 
 To print output: `sbt "run example.ast"`
+
 To save output to a file: `sbt "run example.ast -o out.scala"`
