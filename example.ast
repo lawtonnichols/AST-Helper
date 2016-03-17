@@ -1,0 +1,10 @@
+Exp ::= Lam(x:String, Exp)
+      | Var(String)
+      | App(Exp, Exp)
+      | True // comment
+      | False
+      | If(guard:Exp, Exp, Exp)
+
+// instead of: Program ::= ProgramNode(p:Exp)
+// you can do:
+Program(p:Exp)
